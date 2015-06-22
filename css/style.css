@@ -1,0 +1,504 @@
+/**********************
+BODY
+***********************/
+
+body {
+ 	max-width: 1200px;
+ 	margin: 0 auto;
+ 	background-color: #FAFAFA;
+
+}
+/**********************
+HEADER
+***********************/
+nav {
+	float: right; padding: 45px 0px;
+ }
+
+header {
+	width: 100%; 
+	height: 110px; 
+	border-bottom:3px solid #620A06; 
+	margin: 0 auto;
+}
+nav a {
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold;
+	float: left; 
+	font-size: 14px; 
+	padding: 0 10px; 
+ }
+
+ h1 {
+ 	float: left;
+ 	font-size: 3.5em;
+ 	color: #620A06;
+	font-family: 'Ribeye Marrow', cursive;
+ 	letter-spacing: .1em;
+ 	margin-left: 25px;
+ }
+
+/**********************
+IMAGES
+***********************/
+
+div.top-section {
+	width: 355px;
+	margin: 0 auto;
+
+}
+
+img.cone {
+	width:102px;
+	height: 129px;
+}
+
+img.image {
+	width: 528px;
+	height:643px;
+	margin-top: 35px;
+}
+div.puckler_image {
+	width: 50%;
+	margin: 0 auto;
+}
+
+img.footer_image {
+	width: 75px;
+	height: 90px;
+}
+ 
+
+/*
+/**********************
+HEADINGS
+***********************/
+.mid-section h4 {
+	margin-bottom: 45px;
+}
+
+h4{
+	color: #620A06;
+	font-family: 'Ribeye Marrow', cursive;
+	letter-spacing: .1em;
+ 	width: 100%;
+	font-size: 2em;
+	text-align: center;
+}
+
+h3 a, p, h3 {
+	color: #620A06;
+	font-family: 'Special Elite', cursive;
+}
+
+/**********************
+LINKS
+***********************/
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Ribeye Marrow', cursive;
+}
+
+a.click_here {
+	color: #00A676;
+}
+a.click_here:hover {
+	color: #620A06;
+}
+a:hover {
+ 	color: #00A676;
+	text-decoration: none;
+}
+
+/**********************
+SOCIAL ICONS
+***********************/
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+	margin-left: 25px;
+}
+
+ul.icons {
+	font-size: 24px;
+	padding: 10px;
+}
+
+li a.ss-facebook::before {
+	color: #3A5795;
+}
+
+li a.ss-twitter::before {
+	color: #55ACEE;
+}
+
+
+/**********************
+SPECIALS
+***********************/
+
+p.special {
+	color: #00A676;
+	font-size: 1.3em;
+ }
+
+p {
+	line-height: 1.5em;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	padding: 7px 0;
+}
+
+/**********************
+BOTTOM GRID
+***********************/
+div.section-one h3, div.section-two h3, div.section-three h3 {
+	font-size: 2em;
+}
+
+div.section-one p, div.section-two p, div.section-three p {
+	font-size: 1.1em;
+}
+
+.section-one, .section-two, .section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid black;
+}
+
+.section-two {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+ }
+
+.section-one h3, .section-one p {
+	margin-left: 15px;
+ }
+
+.section-two h3, .section-three h3, .section-three p, .section-two p {
+	padding: 0px 30px;
+}
+
+.section-two h3 {
+	color: #620A06;
+}
+
+/**********************
+FOOTER
+***********************/
+footer {
+	width: 100%; 
+	height: 50px; 
+	border-top:3px solid #eee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+
+div.love h3 {
+	letter-spacing: .1em;
+}
+
+
+/**********************
+STYLING FOR FLAVORS PAGE
+***********************/
+div.grid h3 {
+	letter-spacing: .05em;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+ 
+.grid {
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+ 	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 15px 15px;
+	vertical-align: top;
+	padding: 5px 0;
+} 
+
+ div.row p {
+ 	width: 100px;
+ 	position: relative;
+ 	bottom: 9em;
+ 	right: 3.6em;
+ 	color: #FAFAFA;
+ 	font-size: 1em;
+ }
+
+
+
+.banana {
+
+	border-top: 150px solid #F9E055;
+}
+div.grid.banana p {
+ 	color:black;
+ }
+
+.coconut {
+	border-top: 150px solid #D2CCBC;
+}
+div.grid.coconut p {
+ 	color:black;
+}
+
+.nugget {
+	border-top: 150px solid #352B2C;
+}
+
+.strawberry {
+	border-top: 150px solid #D01A2D;
+ }
+
+.cherry {
+	border-top: 150px solid #DA1430;
+ }
+
+.mandarin {
+	border-top: 150px solid #FDB809;
+ }
+
+.banana_brownie {
+	border-top: 150px solid #593D34;
+ }
+.galaxy {
+	border-top: 150px solid #EFE8D6;
+ }
+
+ div.grid.galaxy p {
+ 	color:black;
+ }
+.chocolate_oreo {
+	border-top: 150px solid #323232;
+ }
+.muddy_river {
+	border-top: 150px solid #745342;
+ }
+.chocolate_lovers {
+	border-top: 150px solid #371C13;
+ }
+
+.rocky_road {
+	border-top: 150px solid #573C2C;
+ }
+
+.fudge_brownie {
+	border-top: 150px solid #120000;
+ }
+.turtle {
+	border-top: 150px solid #CFB085;
+ }
+.truffle {
+	border-top: 150px solid #F76C80;
+ }
+.french {
+	border-top: 150px solid #D6CE96;
+ }
+ div.grid.french p {
+ 	color:black;
+ }
+.vanilla {
+	border-top: 150px solid #FBEA98;
+}
+div.grid.vanilla p {
+ 	color:black;
+ }
+.peppermint {
+	border-top: 150px solid #83D269;
+}
+.mint {
+	border-top: 150px solid #81B992;
+}
+
+.oreo {
+	border-top: 150px solid #100605;
+  }
+
+.mint_oreo {
+	border-top: 150px solid #5EA877;
+}
+.cookie_dough {
+	border-top: 150px solid #CCAC8E;
+}
+.chai {
+	border-top: 150px solid #D0A67D;
+}
+.green_tea {
+	border-top: 150px solid #8DB315;
+}
+.salted {
+	border-top: 150px solid #D87D03;
+}
+.cheesecake {
+	border-top: 150px solid #815143;
+}
+.rasp_cheese {
+	border-top: 150px solid #7B1116;
+}
+.joe {
+	border-top: 150px solid #472C25;
+}
+.velvet {
+	border-top: 150px solid #7A0505;
+}
+.tiger {
+	border-top: 150px solid #66411F;
+}
+.mocha {
+	border-top: 150px solid #66411F;
+}
+.koffee {
+	border-top: 150px solid #66411F;
+}
+.french_crunch{
+	border-top: 150px solid #66411F;
+}
+
+.almond {
+	border-top: 150px solid #C78147;
+}
+.pistachio {
+	border-top: 150px solid #D2DA87;
+}
+ div.grid.pistachio p {
+ 	color:black;
+ }
+.pralines {
+	border-top: 150px solid #A35426;
+}
+.maple_nut {
+	border-top: 150px solid #F7DAAB; 
+}
+div.grid.maple_nut p {
+ 	color:black;
+ }
+.pecan {
+	border-top: 150px solid #B55426;
+ }  
+
+
+/**********************
+FOOTER
+***********************/
+
+.wrapper {
+	clear: both;
+}
+footer {
+	width: 100%; 
+	height: 50px; 
+	border-top:3px solid #eee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+ div.love h3 {
+	color: #620A06;
+	font-family: 'Ribeye Marrow', cursive;
+ 	letter-spacing: .1em;
+ }
+
+/**********************
+LINKS
+***********************/
+
+.selected {
+	font-weight: bold;
+	color: #620A06;
+}
+
+/**********************
+STLYING FOR LOCATIONS PAGE
+***********************/
+
+ div h1 {
+	font-size: 2em;
+	font-family: 'Special Elite', cursive;
+	max-width: 100%;
+}
+
+
+#locations {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* float allows us to position elements in a special way. setting the width to 45%
+means, regardless the size of the browser window, each img will only
+ever take up 45% of the total width of its parent element*/
+
+ #locations li {
+ 	float: left;
+ 	width: 45%;
+ 	margin: 2.5%;
+ 	border-radius: 15px;
+ 	border: 2px solid #620A06;
+ }
+
+ #locations li p {
+ 	text-align: center;
+ 	color:black;
+ }
+
+h3.location {
+	color: #00A676;
+}
+
+ .map {
+ 	font-size: 1.5em;
+ 	border: 1px solid #620A06;
+ 	padding: 10px 20px;
+ 	color: #FAFAFA;
+ 	border-radius: 15px;
+ 	margin-top: 10px; 
+ 	background-color: #620A06;
+ 	font-family: 'Special Elite', cursive;
+ }
+
+li p {
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+li {
+  	height: auto;
+ 	float: left;
+ 	max-width: 100%;
+  }
+
+a.map {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+a.map:hover {
+	color: #00A676;
+} 
+
+/********************************
+MEDIA QUERIES
+*********************************/
+
+
+  
